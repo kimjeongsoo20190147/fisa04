@@ -38,6 +38,9 @@ unordered list
 name = '김정수'
 age = 26
 ```
+|   name   |  gender  |
+|----------|----------|
+|   김정수   |  남성  |
 
 add new line
 
