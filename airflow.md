@@ -59,12 +59,19 @@ Airflow
 ### Ubuntu 환경에서 Docker로 설치 및 실행
 
 $ ubuntu
+
 $ mkdir airflow
+
 $ cd airflow
+
 $ curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.2/docker-compose.yaml'
+
 $ mkdir -p ./dags ./logs ./plugins ./config
+
 $ echo AIRFLOW_UID=50000 > .env
+
 $ docker compose up airflow-init
+
 $ docker compose up
 
 
